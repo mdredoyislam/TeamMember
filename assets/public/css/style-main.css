@@ -1,0 +1,50 @@
+.team-members {
+    width: 100% !important;
+    max-width: 100%;
+}
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.team-member {
+    flex: 0 0 20%;
+    padding: 20px;
+    background: #ccc;
+    width: 100%;
+    text-align: center;
+}
+.team-image img {
+    border-radius: 50%;
+}
+.see-all-button {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.see-all-button a {
+    padding: 15px 30px;
+    background: #00a0ff;
+    color: #fff;
+    border-radius: 30px;
+}
+.team-member.single-page {
+    padding: 30px;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 1024px){
+    .team-member {
+        flex: 0 0 40%;
+        padding: 20px;
+        background: #ccc;
+        width: 100%;
+        text-align: center;
+    }
+}

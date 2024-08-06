@@ -1,0 +1,6 @@
+<h3>Shortcode Settings:</h3>
+<ol><li><p><strong>Shortcode Attributes</strong>:</p><ul><li><code>number</code>: The number of team members to display. Default is 3.</li><li><code>img_pos</code>: The position of the image (<code>top</code> or <code>bottom</code>). Default is <code>top</code>.</li><li><code>see_all</code>: Whether to display the 'See All' button. Default is <code>true</code>.</li></ul></li><li><p><strong>Query</strong>: A WP_Query is used to fetch the specified number of team members.</p></li><li><p><strong>Templates</strong>: Two templates are defined based on the <code>img_pos</code> attribute to position the image either at the top or bottom.</p></li><li><p><strong>Output Buffering</strong>: The output is buffered and returned as the shortcode output.</p></li><li><p><strong>'See All' Button</strong>: The button is conditionally displayed based on the <code>see_all</code> attribute.</p></li></ol>
+
+<h3>Usage</h3>
+<p>To use the shortcode in a post or page, you can add it like this:</p>
+<pre><code>[team_members number=<span class="hljs-string">"5"</span> img_pos=<span class="hljs-string">"bottom"</span> see_all=<span class="hljs-string">"false"</span>]</code></pre>

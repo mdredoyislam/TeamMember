@@ -1,0 +1,10 @@
+.member-label {
+    display: block;
+    font-weight: 500;
+    margin: 0 0 10px !important;
+    padding: 0;
+}
+.member-position {
+    width: 100%;
+    display: block;
+}
